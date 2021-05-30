@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    /* background-color: #e2cd8ed4; */
+}
+#canvas{
+    width: 100%;
+}
+#fire1{
+    background-image: url("images/fire1.gif");
+    left: 300px;
+}
+#fire2{
+    background-image: url("images/fire2.gif");
+    left: 900px;
+}
+.fire{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    background-position: center center;
+    background-size: cover;
+    display: none;
+}
